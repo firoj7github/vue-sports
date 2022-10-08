@@ -20,7 +20,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .field-all{
      background-color: rgb(15, 13, 13);
     height: 700px;

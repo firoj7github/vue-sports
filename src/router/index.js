@@ -2,6 +2,8 @@ import {createRouter, createWebHistory} from 'vue-router'
 import Home from '../components/pages/HomeSite.vue'
 import About from '../components/pages/AboutSite.vue'
 import Contact from '../components/pages/ContactSite.vue'
+import DisableDevtool from 'disable-devtool';
+DisableDevtool();
 
 
 
@@ -9,7 +11,7 @@ import Contact from '../components/pages/ContactSite.vue'
 
 const routes=[
   {
-  path:'/home',
+  path:'/',
   component:Home
   },
   

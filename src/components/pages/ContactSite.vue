@@ -1,7 +1,17 @@
 <template>
   
-  <h1>Home site</h1>
-  
+ 
+            <div class="field-all">
+  <div class="field">
+    <div class="field-1">
+      <img src="../../assets/image/300.png.png" alt="">
+    </div>
+    <div class="field-2">
+      <img src="../../assets/image/400.png.png" alt="">
+    </div>
+  </div>
+
+  </div>
 
 </template>
 
@@ -15,6 +25,25 @@ export default {
   
 </script>
 
-<style>
-
+<style scoped>
+.field-all{
+     background-color: rgb(15, 13, 13);
+    height: 625px;
+    width: 100%;
+}
+.field{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.field-1 img{
+margin-top: 20px;
+margin-left: 100px;
+z-index: 2;
+}
+.field-2 img{
+  width: 700px;
+  height: 500px;
+  margin-left: -80px;
+  
+}
 </style>

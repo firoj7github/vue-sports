@@ -24,7 +24,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .blog-all{
     width: 100%;
     height: 700px;

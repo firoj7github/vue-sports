@@ -7,9 +7,9 @@
     </div>
     <div class="nav-2">
       
-        <li><router-link class="first" to="/home">Home</router-link></li>
+        <li><router-link class="first" to="/">Home</router-link></li>
         <li> <router-link class="first" to="/about">About</router-link></li>
-        <li> <router-link class="first" to="/contact">Contact</router-link></li>
+        <li> <router-link class="first" to="/contact">Blog</router-link></li>
    
         
     </div>
@@ -59,7 +59,7 @@ export default {
   display: flex;
   flex-direction: row;
   color: white;
-  margin-left: 350px;
+  margin-left: 390px;
   text-decoration: none;
  
   
