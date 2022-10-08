@@ -7,20 +7,15 @@
            
            <input class='field-site' type='email' placeholder='Your Email'/>
           <button class='submit-btn'>Submit</button>
-          <hr class='line-big'/>
+          
 
           
               <div class='footer-site'>
               <div>
-                  <h4>Gym Service @2022</h4>
+                  <h4>Sports Website @2022</h4>
                   
                 </div>
-                <div>
-                <span class='logo'>
-                <!-- <a href="https://www.linkedin.com/in/firoj-hossain-878765220/"><span className='icon-system-1'><FaLinkedin></FaLinkedin></span></a>
-                <a href="https://github.com/firoj7github"><span className='icon-system-2'> <FaGithubSquare></FaGithubSquare> </span></a>
-               
-                <a href="https://www.w3schools.com"> <span className='icon-system-3'> <FaFacebook></FaFacebook> </span></a> -->
+                
                 
                     
                     
@@ -29,11 +24,11 @@
                 
              
                 
-                </span>
+               
                
                 </div>
              
-          </div>
+          
 
         
               
@@ -52,7 +47,7 @@ export default {
 <style scoped>
 .footer-all{
     width: 100%; 
-    height: 570px;
+    height: 460px;
    background-color: rgb(19, 18, 18);
     clip-path: inset(0 0 0 0);
    
@@ -113,19 +108,18 @@ export default {
    margin-left: 90px;
  }
  .footer-site{
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
+   height: 80px;
+   width: 100%;
+   background-color: rgb(15, 13, 13);
    
  }
  .footer-site h4{
-    padding-top: 50px;
-    color: white;
-    opacity: 97%;
-    margin-left: 86px;
-    font-size: 21px;
+    text-align :center;
+    color:white;
+    padding-top:25px;
  }
  .logo{
- margin-left: 440px;
+ margin-left: 350px;
  text-decoration: none;
  display: flex;
  padding-top: 5px;

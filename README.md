@@ -1,3 +1,8 @@
+Live Link : https://subtle-toffee-030f53.netlify.app
+Code Link : https://github.com/firoj7github/vue-sports
+
+
+
 # sports-site
 
 ## Project setup
